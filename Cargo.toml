@@ -1,0 +1,19 @@
+[package]
+name = "income-app-slint"
+version = "0.1.0"
+authors = ["virajkokane"]
+edition = "2021"
+build = "build.rs"
+description = "A basic desktop app built using rust and slint UI that divides up income"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.0"
+
+[build-dependencies]
+slint-build = "1.0"
+
+[package.metadata.bundle]
+name = "Income Divider"
+identifier = "io.github.viraj-kokane.desktop-basic-income-app-rust-slint-ui"
